@@ -1,0 +1,7 @@
+fastapi
+pydantic
+uvicorn[standard]
+torch
+fairscale
+fire
+sentencepiece

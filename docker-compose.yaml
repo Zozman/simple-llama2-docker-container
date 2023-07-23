@@ -1,0 +1,18 @@
+version: "3"
+services:
+  llama:
+    build:
+      context: .
+      args:
+        MODEL_WEIGHT: Llama-2-7b-chat
+    ports:
+      - "80:80"
+    environment:
+      - PORT=80
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
