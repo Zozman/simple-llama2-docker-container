@@ -1,4 +1,4 @@
-# Simple Lllama 2 Docker Container
+# Simple Llama 2 Docker Container
 
 Are you trying to just get a simple Llama2 Docker Comtainer to just work?  Welp, you might have come to the right place, as I needed the same thing, couldn't find it after Googling, and thus set this up for just that.
 
