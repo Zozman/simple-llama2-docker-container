@@ -63,7 +63,7 @@ if os.environ.get('PORT') is not None:
 
 print('Building model with model weight at ' + modelWeightPath)
 
-# Build opur Llama model
+# Build our Llama model
 generator = Llama.build(
         ckpt_dir=modelWeightPath,
         tokenizer_path=modelWeightPath + "/tokenizer.model",
